@@ -1670,4 +1670,13 @@ footer .f-right h4 {
     main .menu-section .shop-items .shop1 #pre-icon {
         right: 40px;
     }
+
+    main .menu-section .shop-items button {
+        width: 120px;
+        height: 30px;
+    }
+
+    main .menu-section .shop-items button:hover {
+        width: 150px;
+    }
 }
