@@ -1376,6 +1376,9 @@ footer .f-right h4 {
 @media screen and (max-width:800px) {
     
     /* NAV-mobile */
+    nav {
+        padding: 0px 40px;
+    }
     /* nav-left */
     nav ol {
         display: none;
