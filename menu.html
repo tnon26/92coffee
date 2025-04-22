@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A cozy coffee roaster / Multi Page Responsive Website">
+    <title>92C Coffee Roaster</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <nav>
+            <ol>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ol>
+
+            <a href="index.html" class="home-logo"><img src="img/Logo92c.png" alt="logo"></a>
+
+            <div class="nav-right">
+                <img src="img/icon-member.png" alt="icon-member" id="member">
+                <img src="img/line.png" alt="line" id="vLine">
+                <img src="img/icon-search.svg" alt="icon-search">
+                <img src="img/icon-cart.svg" alt="icon-cart">
+
+                <a href="#" class="burger-icon">
+                    <svg width="800px" height="800px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="16" height="16" id="icon-bound" fill="none" />
+                    <path d="M1,9h14V7H1V9z M1,14h14v-2H1V14z M1,2v2h14V2H1z" />
+                    </svg>
+                </a>
+
+            </div>
+
+            <div class="mobile-nav">
+                <li><a href="#" class="xbtn">X</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+
+
+                <div class="icon-m-nav">
+                    <img src="img/icon-member.png" alt="icon-member">
+                    <img src="img/icon-search.svg" alt="icon-search">
+                    <img src="img/icon-cart.svg" alt="icon-cart">
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <div class="header-menu">
+                <img src="img/header-menu.png" alt="menu-header-img">
+
+                <h1>MENU</h1>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="sort-by">
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>Sort by</legend>
+                            <input list="sortBy" name="sort by" placeholder="Recommended">
+                            <datalist id="sortBy">
+                                <option value="Recommended">
+                                <option value="Relevant">
+                                <option value="Newest">
+                                <option value="A-Z">
+                                <option value="Z-A">
+                            </datalist>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+
+            <section>
+                <div class="menu-section">
+                    <div class="filter">
+                        <h3>Filter</h3>
+                        <img src="img/icon-filter.svg" alt="icon-filter">
+
+                        <div class="left-tab">
+                            <ol class="filter-list">
+                                <li>Category</li>
+                                <li>Size</li>
+                                <li>Type</li>
+                                <li>Time</li>
+                                <li>Price</li>
+                            </ol>
+
+                            <ol class="arr-down">
+                                <li>▾</li>
+                                <li>▾</li>
+                                <li>▾</li>
+                                <li>▾</li>
+                                <li>▾</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="menu-items">
+                        <div class="menu1">
+                            <img src="img/menu1.png" alt="espresso shot">
+                            <h3>Espresso Shot</h3>
+                            <p>Strong, bold, and pure. <br>A quick hit of rich coffee flavor.</p>
+                            <h4>$ 8.00</h4>
+                        </div>
+
+                        <div class="menu2">
+                            <img src="img/menu2-americano 1.png" alt="americano">
+                            <h3>Americano</h3>
+                            <p>Espresso with hot water.<br>Smooth, simple, and easy to enjoy.</p>
+                            <h4>$ 10.00</h4>
+                        </div>
+
+                        <div class="menu3">
+                            <img src="img/menu3-latte-hot 1.png" alt="hot latte">
+                            <h3>Hot Latte</h3>
+                            <p>Creamy steamed milk with a shot of espresso.<br>Warm and comforting.</p>
+                            <h4>$ 12.00</h4>
+                        </div>
+
+                        <div class="menu4">
+                            <img src="img/menu4-latte 1.png" alt="Iced latte">
+                            <h3>Iced Latte</h3>
+                            <p>Chilled milk and espresso over ice.<br>Refreshing and smooth.</p>
+                            <h4>$ 13.00</h4>
+                        </div>
+
+                        <div class="menu5">
+                            <img src="img/menu5-dirty 1.png" alt="dirty coffee">
+                            <h3>Dirty Coffee</h3>
+                            <p>Cold milk topped with hot espresso. <br>A layered, bold-meets-cool treat.</p>
+                            <h4>$ 17.00</h4>
+                        </div>
+
+                        <div class="menu6">
+                            <img src="img/menu6-Mocha 1.png" alt="iced mocha">
+                            <h3>Iced Mocha</h3>
+                            <p>Espresso, chocolate, and milk over ice. <br>Sweet, rich, and satisfying.</p>
+                            <h4>$ 14.00</h4>
+                        </div>
+
+                        <div class="page-num">
+                            <h4> &#60; <span>1</span> 2 3 ... 5 &#62; </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="f-left">
+                <ol>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ol>
+            </div>
+
+            <div class="f-mid">
+                <img src="img/map.png" alt="store-location" class="map">
+                <p>
+                    205 Humber College Blvd, Etobicoke, ON, M9W 5L7
+                </p>
+            </div>
+
+            <div class="f-right">
+                <div class="footer-icon">
+                    <a href="#"><img src="img/icon-fb.svg" alt="facebook"></a>
+                    <a href="#"><img src="img/icon-ig.svg" alt="instagram"></a>
+                    <a href="#"><img src="img/icon-tiktok.svg" alt="tiktok" id="icon-tiktok"></a>
+                    <a href="#"><img src="img/icon-x.svg" alt="x"></a>
+                </div>
+
+                <div class="footer-contact">
+                    <img src="img/icon-tel.svg" alt="">
+                    <span>(414) 567 8901</span>
+                </div>
+                <div class="footer-contact">
+                    <img src="img/icon-mail.svg" alt="">
+                    <span>92coffee@shop.info</span>
+                </div>
+
+                <hr>
+
+                <h4>DESIGNED BY PIYAPAT MEKRUNGSIMUN</h4>
+                <h4>&copy;2025</h4>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
